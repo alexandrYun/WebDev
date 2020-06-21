@@ -1,14 +1,11 @@
-@import url(reset.css);
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
 
-div {
+.page {
 	width: 1440px;
 }
 
 h1 {
 	font-family: Helvetica;
-	font-size: 50px;
 }
 
 p {
@@ -35,7 +32,6 @@ p {
 
 .menu-container {
 	background-color: #E5E000;
-	width: 1440px;
 	height: 100px;
 }
 
@@ -48,24 +44,16 @@ p {
 	line-height: 100px;
 }
 
-.content h1 {
-	font-weight: bold;
-}
-
 .footer {
 	background-color: #E5E000;
 	height: 200px;
-}
-.footer-container {
-	padding-top: 75px;
-}
-
-.footer-container img {
-	float: left;
+	background-image: url(../img/logo.png);
+	background-position: left center;
+	background-repeat: no-repeat;
 }
 
-.footer-container h1 {
+.footer h1 {
 	color: #FFFFFF;
-	 float: right;
+	line-height: 200px;
+	text-align: right;
 }
-
