@@ -1,0 +1,78 @@
+.page {
+	width: 1440px;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-size: 20px;
+	margin: 0px;
+	line-height: 20px;
+}
+
+.header {
+	height: 60px;
+	background-color: #FE1A19;
+	position: relative;
+}
+
+
+.header-container {
+	color: #FFFFFF;
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.content {
+	padding: 52px 70px;
+	font-size: 0;
+}
+
+section {
+	width: 400px;
+	height: 800px;
+	border: 5px solid #E5E000;
+	border-radius: 30px;
+	box-sizing: border-box;
+	display: inline-block;
+	font-size: 20px;
+	vertical-align: top;
+}
+
+.second {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.recipe {
+	height: 23px;
+	display: inline-block;
+	margin-top: 33px;
+	margin-left: 33px;
+}
+
+.components {
+	display: inline-block;
+	margin-top: 41px;
+	margin-left: 33px;
+}
+
+p {
+	font-size: 20px;
+	margin: 0px;
+}
+
+.footer {
+	height: 60px;
+	background-color: #FE1A19;
+	position: relative;
+}
+
+.footer-container {
+	color: #FFFFFF;
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
