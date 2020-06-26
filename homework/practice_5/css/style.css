@@ -9,19 +9,21 @@ h1 {
 	line-height: 20px;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 .header {
 	height: 60px;
 	background-color: #FE1A19;
 	position: relative;
 }
 
-
 .header-container {
 	color: #FFFFFF;
 	display: inline-block;
-	position: absolute;
-	top: 20px;
-	left: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
 }
 
 .content {
@@ -29,15 +31,15 @@ h1 {
 	font-size: 0;
 }
 
-section {
+.column {
 	width: 400px;
 	height: 800px;
 	border: 5px solid #E5E000;
 	border-radius: 30px;
-	box-sizing: border-box;
 	display: inline-block;
 	font-size: 20px;
 	vertical-align: top;
+	padding: 33px 33px; 
 }
 
 .second {
@@ -48,19 +50,20 @@ section {
 .recipe {
 	height: 23px;
 	display: inline-block;
-	margin-top: 33px;
-	margin-left: 33px;
 }
 
 .components {
 	display: inline-block;
 	margin-top: 41px;
-	margin-left: 33px;
 }
 
-p {
-	font-size: 20px;
-	margin: 0px;
+.components ul {
+	margin-top: 0px;
+	padding: 0px;
+}
+
+.components li {
+	list-style-type: none;
 }
 
 .footer {
@@ -72,7 +75,6 @@ p {
 .footer-container {
 	color: #FFFFFF;
 	display: inline-block;
-	position: absolute;
-	top: 20px;
-	left: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
 }
