@@ -16,7 +16,6 @@ h1 {
 .header {
 	height: 60px;
 	background-color: #FE1A19;
-	position: relative;
 }
 
 .header-container {
@@ -27,7 +26,8 @@ h1 {
 }
 
 .content {
-	padding: 52px;
+	padding-top: 52px;
+	padding-bottom: 52px;
 	font-size: 0;
 	text-align: center;
 }
@@ -39,8 +39,7 @@ h1 {
 	border-radius: 30px;
 	display: inline-block;
 	font-size: 20px;
-	vertical-align: top;
-	padding: 33px 33px;
+	padding: 33px;
 	text-align: left; 
 }
 
@@ -51,11 +50,9 @@ h1 {
 
 .recipe {
 	height: 23px;
-	display: inline-block;
 }
 
 .components {
-	display: inline-block;
 	margin-top: 41px;
 }
 
