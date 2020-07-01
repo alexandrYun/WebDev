@@ -27,8 +27,9 @@ h1 {
 }
 
 .content {
-	padding: 52px 70px;
+	padding: 52px;
 	font-size: 0;
+	text-align: center;
 }
 
 .column {
@@ -39,7 +40,8 @@ h1 {
 	display: inline-block;
 	font-size: 20px;
 	vertical-align: top;
-	padding: 33px 33px; 
+	padding: 33px 33px;
+	text-align: left; 
 }
 
 .second {
