@@ -44,7 +44,6 @@
 	background: url(../img/logo.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	flex-shrink: ;
 	display: flex;
 	align-items: center;
 	justify-content: center;
