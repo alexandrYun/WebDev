@@ -1,20 +1,25 @@
 * {
 	font-family: "Arial";
 	box-sizing: border-box;
+	margin: 0;
 }
 
 .header {
 	height: 140px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	display: flex;
+	align-items: center;
+	background-color: #FFFFFF;
 }
 
 .header-container {
-	height: 140px;
 	background-color: #FFFFFF;
 	color: #E50043;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	position: fixed;
 	width: 100%;
 }
 
@@ -26,6 +31,9 @@
 
 .nav {
 	margin-right: 50px;
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
 }
 
 .nav a {
@@ -34,19 +42,14 @@
 	text-decoration: none;
 }
 
-.second-link {
-	margin-left: 25px;
-	margin-right: 25px;
-}
-
 .main-logo {
 	height: 950px;
-	background: url(../img/logo.png);
-	background-repeat: no-repeat;
+	background-image: url(../img/logo.png);
 	background-size: cover;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-top: 140px;
 }
 
 .main-logo h1 {
@@ -57,7 +60,6 @@
 
 .description {
 	width: 1040px;
-	height: 280px;
 	border: 3px solid #F8BFC7;
 	border-radius: 20px;
 	margin: 150px auto;
@@ -66,8 +68,8 @@
 	letter-spacing: 0.05em;
 }
 
-.description p {
-	margin-top: 0;
+.text {
+	margin-top: 40px;
 }
 
 .products {
@@ -86,10 +88,10 @@
 
 .composition {
 	width: 1040px;
-	height: 280px;
 	border: 3px solid #F8BFC7;
 	border-radius: 20px;
 	margin: 150px auto;
+	padding: 30px;
 	font-size: 25px;
 	display: flex;
 	justify-content: center;
@@ -109,12 +111,8 @@
 }
 
 .elements {
-	height: 220px;
-	letter-spacing: 0.05em;
-}
-
-.elements p {
-	margin-top: 0;
+	display: grid;
+    row-gap: 25px;
 }
 
 .footer {
