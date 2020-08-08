@@ -1,6 +1,18 @@
+:root {
+	--bgc-clr: #FEB700;
+	--txt: 2rem;
+	--hf-txt: 5rem;
+	--hf-h: 16rem;
+	--mt: 3rem;
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
+}
+
+html {
+	font-size: .8vw;
 }
 
 body {
@@ -8,8 +20,8 @@ body {
 }
 
 .header {
-	height: 160px;
-	background-color: #FEB700;
+	height: var(--hf-h);
+	background-color: var(--bgc-clr);
 	display: flex;
 }
 
@@ -18,12 +30,12 @@ body {
 }
 
 .header-container h1 {
-	font-size: 50px;
+	font-size: var(--hf-txt);
 	font-weight: normal;
 }
 
 .main-content {
-	padding: 70px;
+	padding: 7rem;
 	display: flex;
 	justify-content: space-between;
 }
@@ -39,27 +51,27 @@ img {
 }
 
 .description {
-	margin: 30px 33px;
-	font-size: 20px;
+	margin: 3rem 3.3rem;
+	font-size: var(--txt);
 }
 
 .description ul {
 	list-style-type: none;
-	margin-top: 30px;
+	margin-top: var(--mt);
 	padding-left: 0;
 }
 
 .description h2 {
-	font-size: 20px;
+	font-size: var(--txt);
 }
 
 .description p {
-	margin-top: 30px;
+	margin-top: var(--mt);
 }
 
 .footer {
-	height: 160px;
-	background-color: #FEB700;
+	height: var(--hf-h);
+	background-color: var(--bgc-clr);
 	display: flex;
 }
 
@@ -68,5 +80,5 @@ img {
 }
 
 .footer-container p {
-	font-size: 50px;
+	font-size: var(--hf-txt);
 }
