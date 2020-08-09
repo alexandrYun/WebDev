@@ -1,9 +1,9 @@
 :root {
 	--bgc-clr: #FEB700;
-	--txt: 2rem;
-	--hf-txt: 5rem;
-	--hf-h: 16rem;
-	--mt: 3rem;
+	--main-txt-size: 2rem;
+	--headfoot-txt-size: 5rem;
+	--headfoot-hght: 16rem;
+	--margin-t: 3rem;
 }
 
 * {
@@ -20,7 +20,7 @@ body {
 }
 
 .header {
-	height: var(--hf-h);
+	height: var(--headfoot-hght);
 	background-color: var(--bgc-clr);
 	display: flex;
 }
@@ -30,7 +30,7 @@ body {
 }
 
 .header-container h1 {
-	font-size: var(--hf-txt);
+	font-size: var(--headfoot-txt-size);
 	font-weight: normal;
 }
 
@@ -52,25 +52,25 @@ img {
 
 .description {
 	margin: 3rem 3.3rem;
-	font-size: var(--txt);
+	font-size: var(--main-txt-size);
 }
 
 .description ul {
 	list-style-type: none;
-	margin-top: var(--mt);
+	margin-top: var(--margin-t);
 	padding-left: 0;
 }
 
 .description h2 {
-	font-size: var(--txt);
+	font-size: var(--main-txt-size);
 }
 
 .description p {
-	margin-top: var(--mt);
+	margin-top: var(--margin-t);
 }
 
 .footer {
-	height: var(--hf-h);
+	height: var(--headfoot-hght);
 	background-color: var(--bgc-clr);
 	display: flex;
 }
@@ -80,5 +80,5 @@ img {
 }
 
 .footer-container p {
-	font-size: var(--hf-txt);
+	font-size: var(--headfoot-txt-size);
 }
