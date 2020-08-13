@@ -17,6 +17,9 @@ html {
 
 body {
 	font-family: "Times New Roman";
+	color: black;
+	font-weight: normal;
+	font-style: normal;
 }
 
 .header {
@@ -46,8 +49,22 @@ section {
 	border: 1px solid #000000;
 }
 
-img {
-	width: 100%;
+.first, .second, .third {
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 150%;
+}
+
+.first {
+	background-image: url(../img/Samosa.png);
+}
+
+.second {
+	background-image: url(../img/Yogurt.png);
+}
+
+.third {
+	background-image: url(../img/Granola.png);
 }
 
 .description {
