@@ -9,13 +9,17 @@
 }
 
 html {
-	font-size: 62.5%;
+	font-size: 2.6vw;
 }
 
 body {
 	font-family: Helvetica;
 	font-size: 2.5rem;
 	font-weight: bold;
+}
+
+.page {
+	height: 100%;
 }
 
 .header {
@@ -58,11 +62,14 @@ section {
 	margin: var(--margin-hdr-ftr);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) { 
+	html {
+		font-size: 1.3vw;
+	}
+
 	.main-container {
 		flex-flow: row wrap;
-		row-gap: 2rem;
-		column-gap: 2rem;
+		gap: 2rem;
 		justify-content: center;
 	}
 
