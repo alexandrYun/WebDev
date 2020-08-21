@@ -1,6 +1,8 @@
 :root {
-	--margin-hdr-ftr: 3.5rem auto 3.6rem 3rem;
+	--margin-hdr-ftr: 35px auto 36px 30px;
 	--bgc-color-hdr-ftr: #0000FF;
+	--fontsize-hdr-ftr: 25px;
+	--height-hdr-ftr: 100px;
 }
 
 * {
@@ -18,12 +20,8 @@ body {
 	font-weight: bold;
 }
 
-.page {
-	height: 100%;
-}
-
 .header {
-	height: 10rem;
+	height: var(--height-hdr-ftr);
 	background-color: var(--bgc-color-hdr-ftr);
 	color: white;
 	display: flex;
@@ -31,6 +29,7 @@ body {
 
 .header-container {
 	margin: var(--margin-hdr-ftr);
+	font-size: var(--fontsize-hdr-ftr);
 }
 
 .main-container {
@@ -52,7 +51,7 @@ section {
 }
 
 .footer {
-	height: 10rem;
+	height: var(--height-hdr-ftr);
 	background-color: var(--bgc-color-hdr-ftr);
 	color: white;
 	display: flex;
@@ -60,6 +59,7 @@ section {
 
 .footer-container {
 	margin: var(--margin-hdr-ftr);
+	font-size: var(--fontsize-hdr-ftr);
 }
 
 @media screen and (min-width: 600px) { 
