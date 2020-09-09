@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="page">
+		<header class="header">
+			<nav class="nav">
+				<div class="nav-first-container">
+					<a href="#" class="nav-first-container__item">ПОСЫЛКИ</a>
+					<a href="#" class="nav-first-container__item">УПАКОВКА</a>
+					<a href="#" class="nav-first-container__item">ПОДПИСКА</a>
+				</div>
+				<div class="nav-menu">
+					<a href="#" class="nav-menu__item">МЕНЮ</a>
+				</div>
+			</nav>
+		</header>
+		<main class="main">
+			<section class="form-section">
+				<div class="form-container">
+					<form action="https://formspree.io/xeqrygjd" method="POST" class="form">
+						<label for="name" class="form__label">Имя</label>
+						<input placeholder="Андрей" type="text" class="form__input" name="name">
+						<label for="city" class="form__label">Город</label>
+						<input placeholder="Сочи" type="text" class="form__input" name="city">
+						<label for="present" class="form__label">Подарок</label>
+						<input placeholder="Книга" type="text" class="form__input" name="present">
+						<label for="e-mail" class="form__label">Электронная почта</label>
+						<input placeholder="example@mail.ru" type="text" class="form__input" name="e-mail">
+						<input type="submit" name="" class="form-container__submit">
+					</form>
+				</div>
+			</section>
+			<div class="banner">
+				<h1 class="banner__title">ВАША ПОСЫЛКА УЖЕ В ПУТИ!</h1>
+			</div>
+		</main>
+		<footer class="footer">
+			<p class="footer__item">СЕКРЕТНЫЕ ПОСЫЛКИ ДЛЯ ДРУЗЕЙ</p>
+			<p class="copyright">© 2019</p>
+		</header>
+	</div>
+</body>
+</html>

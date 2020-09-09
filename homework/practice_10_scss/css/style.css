@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: helvetica;
+}
+
+.header {
+  height: 9rem;
+  background-color: #F8BFC7;
+}
+
+.nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.nav-first-container {
+  display: flex;
+  gap: 3rem;
+}
+.nav-first-container__item {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.nav-menu__item {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  height: calc(100vh - (9rem + 9rem));
+  min-height: 85rem;
+  background-color: #336FD1;
+}
+
+.form-section {
+  height: 65rem;
+  background-image: url(../img/background.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.form-container {
+  margin-top: 9rem;
+  margin-left: 9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+}
+.form-container__submit {
+  width: 20rem;
+  height: 6rem;
+  background-color: #FEB700;
+  border: 3px solid white;
+  border-radius: 30px;
+  color: white;
+  font-size: 2rem;
+  margin: 2.3rem auto 0;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.form {
+  height: 36.2rem;
+  width: 30rem;
+  background-color: #F8BFC7;
+  border: 3px solid white;
+  border-radius: 20px;
+  padding: 2.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.form__label {
+  font-size: 20px;
+  color: white;
+}
+.form__input {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: #F8BFC7;
+  color: white;
+  font-size: 2rem;
+  font-family: Times New Roman;
+  outline: none;
+}
+.form__input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 2rem;
+  font-family: Times New Roman;
+}
+
+.banner {
+  height: 20rem;
+  background-color: #336FD1;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+.banner__title {
+  color: #FEB700;
+  font-size: 5rem;
+}
+
+.footer {
+  height: 9rem;
+  background-color: #F8BFC7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+.footer__item {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.copyright {
+  font-size: 2rem;
+  color: white;
+}
